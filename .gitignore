@@ -1,0 +1,34 @@
+# Rider IDE tarafından oluşturulan dosyalar
+.idea/
+
+# Çalışma zamanı dosyaları
+bin/
+obj/
+
+# Kullanıcı bazlı yapılandırma dosyaları
+*.user
+*.suo
+*.swp
+
+# Log dosyaları
+*.log
+
+# Build çıktıları
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# MacOS özel dosyaları
+.DS_Store
+
+# Paket yöneticisi klasörleri
+node_modules/
+wwwroot/lib/
+
+# Proje yapılandırma dosyaları
+appsettings.Development.json
+secrets.json
+
+# Docker
+docker-compose.override.yml
